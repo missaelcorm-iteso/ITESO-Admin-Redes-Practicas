@@ -1,0 +1,7 @@
+routers:
+  - name: R1 GDL
+    ip: "1.1.1.1"
+  - name: R2 Monterrey
+    ip: "2.2.2.2"
+  - name: R3 CDMX
+    ip: "3.3.3.3"
