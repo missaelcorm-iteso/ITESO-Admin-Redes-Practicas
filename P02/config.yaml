@@ -1,0 +1,55 @@
+devices:
+  - name: R1 GDL
+    ip: "1.1.1.1"
+  - name: R2 Monterrey
+    ip: "2.2.2.2"
+  - name: R3 CDMX
+    ip: "3.3.3.3"
+
+config:
+  output_dir: ./configs
+  export_interval: 20
+  registry_file: ./registry.json
+  regex_ignore:
+    - name: "Ignore Last configuration change"
+      pattern: '! Last configuration change at ([0-1]?[0-9]|2[0-3])(:[0-5][0-9]){2} [A-Z]{3}( [a-zA-Z]{3}){2} ([0-9]{2}) ([0-9]{4})\n'
+
+network_security_compliance:
+  results_dir: ./nsc_results
+  rules:
+    - name: "Telnet disabled"
+      # command: "show running-config | include transport input telnet"
+      pattern: 'transport input telnet'
+      expected: False
+    - name: "SSH enabled"
+      # command: "show running-config | include transport input ssh"
+      pattern: 'transport input ssh'
+      expected: True
+    - name: "SSH version 2"
+      pattern: 'ip ssh version 2'
+      expected: True
+    - name: "Service password-encryption enabled"
+      # command: "show running-config | include service password-encryption"
+      pattern: 'no service password-encryption'
+      expected: False
+    - name: "Enable secret configured"
+      pattern: 'enable secret'
+      expected: True
+    - name: "Domain name configured"
+      pattern: 'ip domain name'
+      expected: True
+    - name: "cisco user configured"
+      pattern: 'username cisco'
+      expected: True
+    - name: "Loopback0 interface configured"
+      pattern: 'interface Loopback0'
+      expected: True
+    - name: "ospf 100 configured"
+      pattern: 'router ospf 100'
+      expected: True
+    - name: "ip http server disabled"
+      pattern: 'no ip http server'
+      expected: True
+    - name: "ip http secure-server disabled"
+      pattern: 'no ip http secure-server'
+      expected: True

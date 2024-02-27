@@ -1,0 +1,20 @@
+{
+    "1.1.1.1": {
+        "name": "R1 GDL",
+        "ip": "1.1.1.1",
+        "hostname": "R1",
+        "current_config": "R1-2024-02-26-21-00-09.cfg"
+    },
+    "2.2.2.2": {
+        "name": "R2 Monterrey",
+        "ip": "2.2.2.2",
+        "hostname": "R2",
+        "current_config": "R2-2024-02-26-21-19-37.cfg"
+    },
+    "3.3.3.3": {
+        "name": "R3 CDMX",
+        "ip": "3.3.3.3",
+        "hostname": "R3",
+        "current_config": "R3-2024-02-26-21-26-22.cfg"
+    }
+}
