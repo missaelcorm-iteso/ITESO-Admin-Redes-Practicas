@@ -279,3 +279,8 @@ For RADIUS functionality, I've deployed FreeRADIUS on the Ubuntu Server VM using
 
 By integrating these components, I've created a dynamic network environment where routers authenticate users via a dedicated RADIUS server. This setup, facilitated by Proxmox, EVE-NG, and FreeRADIUS, empowers efficient testing and optimization of authentication mechanisms within my network infrastructure.
 
+## References
+- https://netplan.readthedocs.io/en/stable/examples/
+- https://linuxconfig.org/how-to-add-static-route-with-netplan-on-ubuntu-20-04-focal-fossa-linux
+- https://github.com/2stacks/docker-freeradius/tree/master
+- https://hub.docker.com/r/freeradius/freeradius-server
