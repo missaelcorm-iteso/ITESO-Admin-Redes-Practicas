@@ -1,0 +1,14 @@
+version: '3.2'
+
+services:
+  freeradius:
+    image: freeradius/freeradius-server
+    container_name: freeradius
+    volumes:
+      - ./raddb/clients.conf:/etc/raddb/clients.conf
+      - ./raddb/radiusd.conf:/etc/raddb/radiusd.conf
+      - ./raddb/mods-config/files/authorize:/etc/raddb/mods-config/files/authorize
+    ports:
+      - 1812:1812/udp
+      - 1813:1813/udp
+    
