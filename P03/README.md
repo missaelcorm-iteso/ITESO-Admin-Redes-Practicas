@@ -284,3 +284,4 @@ By integrating these components, I've created a dynamic network environment wher
 - https://linuxconfig.org/how-to-add-static-route-with-netplan-on-ubuntu-20-04-focal-fossa-linux
 - https://github.com/2stacks/docker-freeradius/tree/master
 - https://hub.docker.com/r/freeradius/freeradius-server
+- https://www.reddit.com/r/networking/comments/x5ohbg/eveng_on_proxmox_trying_to_figure_out_cloud_nodes/
