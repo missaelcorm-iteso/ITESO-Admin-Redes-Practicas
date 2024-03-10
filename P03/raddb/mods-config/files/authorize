@@ -1,0 +1,2 @@
+radiusUser      Cleartext-Password := "radiuspass"
+        Reply-Message := "Welcome, %{User-Name}"
