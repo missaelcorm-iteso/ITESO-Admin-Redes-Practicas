@@ -275,3 +275,4 @@ This lab has been a valuable hands-on experience in Cisco router log centralizat
 - https://www.cisco.com/c/en/us/td/docs/routers/access/wireless/software/guide/SysMsgLogging.html
 - https://learningnetwork.cisco.com/s/question/0D53i00000KsuxQCAR/understanding-system-message-severity-levels
 - https://gemini.google.com/
+- https://community.snowflake.com/s/article/HOW-TO-GENERATE-PACKET-CAPTURE-FOR-SNOWFLAKE-CONNECTION
