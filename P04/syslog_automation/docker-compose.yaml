@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  rsyslog:
+    image: rsyslog/syslog_appliance_alpine:8.36.0-3.7
+    container_name: rsyslog
+    volumes:
+      - ./rsyslog/config/rsyslog.conf:/etc/rsyslog.conf
+      - ./rsyslog/logs:/logs
+    ports:
+      - 514:514/udp
+      - 514:514/tcp
+    

@@ -1,0 +1,39 @@
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.green {
+    background-color: green;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.blue {
+    background-color: blue;
+}
