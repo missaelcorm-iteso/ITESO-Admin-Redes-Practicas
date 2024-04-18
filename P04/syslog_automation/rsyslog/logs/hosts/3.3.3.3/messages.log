@@ -1,0 +1,10 @@
+2024-04-15T01:13:38.745126+00:00 3.3.3.3 53: R3-Equipo3: *Apr 15 04:13:32.627: %LINK-5-CHANGED: Interface Ethernet1/3, changed state to administratively down
+2024-04-15T01:13:38.745183+00:00 3.3.3.3 54: R3-Equipo3: *Apr 15 04:13:33.627: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to down
+2024-04-15T01:13:39.740655+00:00 3.3.3.3 55: R3-Equipo3: *Apr 15 04:13:38.631: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 10.10.3.10 port 514 started - reconnection
+2024-04-15T01:15:13.092088+00:00 3.3.3.3 56: R3-Equipo3: *Apr 15 04:15:11.979: %SYS-5-CONFIG_I: Configured from console by console
+2024-04-15T03:32:54.362255+00:00 3.3.3.3 57: R3-Equipo3: *Apr 15 06:32:53.243: %SYS-5-CONFIG_I: Configured from console by console
+2024-04-15T04:08:39.945209+00:00 3.3.3.3 58: R3-Equipo3: *Apr 15 07:08:38.858: %LINK-3-UPDOWN: Interface Ethernet1/3, changed state to up
+2024-04-15T04:08:39.945209+00:00 3.3.3.3 59: R3-Equipo3: *Apr 15 07:08:39.858: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to up
+2024-04-15T04:09:03.535117+00:00 3.3.3.3 60: R3-Equipo3: *Apr 15 07:09:02.438: %LINK-5-CHANGED: Interface Ethernet1/3, changed state to administratively down
+2024-04-15T04:09:03.535117+00:00 3.3.3.3 61: R3-Equipo3: *Apr 15 07:09:03.438: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to down
+2024-04-15T04:19:02.324271+00:00 3.3.3.3 62: R3-Equipo3: *Apr 15 07:19:01.254: %SYS-5-CONFIG_I: Configured from console by console
