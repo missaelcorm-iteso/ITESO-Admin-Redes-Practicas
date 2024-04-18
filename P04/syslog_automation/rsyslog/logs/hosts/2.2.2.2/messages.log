@@ -3,3 +3,5 @@
 2024-04-15T01:15:22.276962+00:00 2.2.2.2 48: R2-Equipo3: *Apr 15 04:15:21.223: %SYS-5-CONFIG_I: Configured from console by console
 2024-04-15T01:15:22.276962+00:00 2.2.2.2 49: R2-Equipo3: *Apr 15 04:15:21.871: %LINK-5-CHANGED: Interface Ethernet1/2, changed state to administratively down
 2024-04-15T01:15:23.917317+00:00 2.2.2.2 50: R2-Equipo3: *Apr 15 04:15:22.871: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/2, changed state to down
+2024-04-18T03:20:25.804210+00:00 2.2.2.2 35: R2-Equipo3: *Apr 18 06:20:24.435: %SYS-1-CPURISINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr): 1%/19%, Top 3 processes(Pid/Util):  3/0%, 250/0%, 67/0%
+2024-04-18T03:20:30.803883+00:00 2.2.2.2 36: R2-Equipo3: *Apr 18 06:20:29.435: %SYS-1-CPUFALLINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr) 0%/100%.

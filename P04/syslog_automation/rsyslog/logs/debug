@@ -11548,3 +11548,696 @@ $!:
 $.:
 $/:
 
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'global: origin=dynstats '
+escaped msg: 'global: origin=dynstats '
+inputname: impstats rawmsg: 'global: origin=dynstats '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+escaped msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+inputname: impstats rawmsg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'action 0: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 0: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 0: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=843 level0=828 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+escaped msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=843 level0=828 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+inputname: impstats rawmsg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=843 level0=828 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'log_to_logfiles: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'log_to_logfiles: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'log_to_logfiles: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'action 2: origin=core.action processed=820 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 2: origin=core.action processed=820 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 2: origin=core.action processed=820 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'main_utf8fix: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'main_utf8fix: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'main_utf8fix: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imrelp(1601): origin=imrelp submitted=0 '
+escaped msg: 'imrelp(1601): origin=imrelp submitted=0 '
+inputname: impstats rawmsg: 'imrelp(1601): origin=imrelp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imtcp(514): origin=imtcp submitted=0 '
+escaped msg: 'imtcp(514): origin=imtcp submitted=0 '
+inputname: impstats rawmsg: 'imtcp(514): origin=imtcp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'resource-usage: origin=impstats utime=34204 stime=12820 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2160 nvcsw=346 nivcsw=213 openfiles=19 '
+escaped msg: 'resource-usage: origin=impstats utime=34204 stime=12820 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2160 nvcsw=346 nivcsw=213 openfiles=19 '
+inputname: impstats rawmsg: 'resource-usage: origin=impstats utime=34204 stime=12820 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2160 nvcsw=346 nivcsw=213 openfiles=19 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'main Q: origin=core.queue size=16 enqueued=859 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+escaped msg: 'main Q: origin=core.queue size=16 enqueued=859 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+inputname: impstats rawmsg: 'main Q: origin=core.queue size=16 enqueued=859 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+escaped msg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+inputname: impstats rawmsg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:48:28', STRUCTURED-DATA: '-',
+msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+escaped msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+inputname: impstats rawmsg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'global: origin=dynstats '
+escaped msg: 'global: origin=dynstats '
+inputname: impstats rawmsg: 'global: origin=dynstats '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+escaped msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+inputname: impstats rawmsg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'action 0: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 0: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 0: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=862 level0=847 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+escaped msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=862 level0=847 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+inputname: impstats rawmsg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=862 level0=847 missed=7 evicted=0 maxused=5 closetimeouts=6 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'log_to_logfiles: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'log_to_logfiles: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'log_to_logfiles: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'action 2: origin=core.action processed=839 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 2: origin=core.action processed=839 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 2: origin=core.action processed=839 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'main_utf8fix: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'main_utf8fix: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'main_utf8fix: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imrelp(1601): origin=imrelp submitted=0 '
+escaped msg: 'imrelp(1601): origin=imrelp submitted=0 '
+inputname: impstats rawmsg: 'imrelp(1601): origin=imrelp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=23 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imtcp(514): origin=imtcp submitted=0 '
+escaped msg: 'imtcp(514): origin=imtcp submitted=0 '
+inputname: impstats rawmsg: 'imtcp(514): origin=imtcp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'resource-usage: origin=impstats utime=34510 stime=12935 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2200 nvcsw=349 nivcsw=213 openfiles=19 '
+escaped msg: 'resource-usage: origin=impstats utime=34510 stime=12935 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2200 nvcsw=349 nivcsw=213 openfiles=19 '
+inputname: impstats rawmsg: 'resource-usage: origin=impstats utime=34510 stime=12935 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2200 nvcsw=349 nivcsw=213 openfiles=19 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'main Q: origin=core.queue size=16 enqueued=878 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+escaped msg: 'main Q: origin=core.queue size=16 enqueued=878 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+inputname: impstats rawmsg: 'main Q: origin=core.queue size=16 enqueued=878 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+escaped msg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+inputname: impstats rawmsg: 'imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+escaped msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+inputname: impstats rawmsg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd:', programname: 'rsyslogd', APP-NAME: 'rsyslogd', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 15 04:49:28', STRUCTURED-DATA: '-',
+msg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] exiting on signal 15.'
+escaped msg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] exiting on signal 15.'
+inputname: rsyslogd rawmsg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] exiting on signal 15.'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 43,
+syslogtag 'rsyslogd-2221:', programname: 'rsyslogd-2221', APP-NAME: 'rsyslogd-2221', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:20:04', STRUCTURED-DATA: '-',
+msg: 'module 'imudp' already in this config, cannot be added  [v8.36.0 try http://www.rsyslog.com/e/2221 ]'
+escaped msg: 'module 'imudp' already in this config, cannot be added  [v8.36.0 try http://www.rsyslog.com/e/2221 ]'
+inputname: rsyslogd rawmsg: 'module 'imudp' already in this config, cannot be added  [v8.36.0 try http://www.rsyslog.com/e/2221 ]'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 43,
+syslogtag 'rsyslogd-2077:', programname: 'rsyslogd-2077', APP-NAME: 'rsyslogd-2077', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:20:04', STRUCTURED-DATA: '-',
+msg: 'Could not create tcp listener, ignoring port 514 bind-address (null). [v8.36.0 try http://www.rsyslog.com/e/2077 ]'
+escaped msg: 'Could not create tcp listener, ignoring port 514 bind-address (null). [v8.36.0 try http://www.rsyslog.com/e/2077 ]'
+inputname: rsyslogd rawmsg: 'Could not create tcp listener, ignoring port 514 bind-address (null). [v8.36.0 try http://www.rsyslog.com/e/2077 ]'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd:', programname: 'rsyslogd', APP-NAME: 'rsyslogd', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:20:04', STRUCTURED-DATA: '-',
+msg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] start'
+escaped msg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] start'
+inputname: rsyslogd rawmsg: ' [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] start'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '2.2.2.2', fromhost-ip: '2.2.2.2', HOSTNAME: '2.2.2.2', PRI: 185,
+syslogtag '35:', programname: '35', APP-NAME: '35', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:20:25', STRUCTURED-DATA: '-',
+msg: ' R2-Equipo3: *Apr 18 06:20:24.435: %SYS-1-CPURISINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr): 1%/19%, Top 3 processes(Pid/Util):  3/0%, 250/0%, 67/0%'
+escaped msg: ' R2-Equipo3: *Apr 18 06:20:24.435: %SYS-1-CPURISINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr): 1%/19%, Top 3 processes(Pid/Util):  3/0%, 250/0%, 67/0%'
+inputname: imudp rawmsg: '<185>35: R2-Equipo3: *Apr 18 06:20:24.435: %SYS-1-CPURISINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr): 1%/19%, Top 3 processes(Pid/Util):  3/0%, 250/0%, 67/0%'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '2.2.2.2', fromhost-ip: '2.2.2.2', HOSTNAME: '2.2.2.2', PRI: 185,
+syslogtag '36:', programname: '36', APP-NAME: '36', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:20:30', STRUCTURED-DATA: '-',
+msg: ' R2-Equipo3: *Apr 18 06:20:29.435: %SYS-1-CPUFALLINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr) 0%/100%.'
+escaped msg: ' R2-Equipo3: *Apr 18 06:20:29.435: %SYS-1-CPUFALLINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr) 0%/100%.'
+inputname: imudp rawmsg: '<185>36: R2-Equipo3: *Apr 18 06:20:29.435: %SYS-1-CPUFALLINGTHRESHOLD: Threshold: Total CPU Utilization(Total/Intr) 0%/100%.'
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'global: origin=dynstats '
+escaped msg: 'global: origin=dynstats '
+inputname: impstats rawmsg: 'global: origin=dynstats '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+escaped msg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+inputname: impstats rawmsg: 'omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'action 0: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 0: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 0: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=5 level0=3 missed=2 evicted=0 maxused=2 closetimeouts=0 '
+escaped msg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=5 level0=3 missed=2 evicted=0 maxused=2 closetimeouts=0 '
+inputname: impstats rawmsg: 'dynafile cache log_to_files_dynafile: origin=omfile requests=5 level0=3 missed=2 evicted=0 maxused=2 closetimeouts=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'log_to_logfiles: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'log_to_logfiles: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'log_to_logfiles: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'action 2: origin=core.action processed=3 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'action 2: origin=core.action processed=3 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'action 2: origin=core.action processed=3 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'main_utf8fix: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+escaped msg: 'main_utf8fix: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+inputname: impstats rawmsg: 'main_utf8fix: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imrelp(1601): origin=imrelp submitted=0 '
+escaped msg: 'imrelp(1601): origin=imrelp submitted=0 '
+inputname: impstats rawmsg: 'imrelp(1601): origin=imrelp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+escaped msg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+inputname: impstats rawmsg: 'imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=2 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=2 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=2 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+escaped msg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+inputname: impstats rawmsg: 'imudp(*:514): origin=imudp submitted=0 disallowed=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imtcp(514): origin=imtcp submitted=0 '
+escaped msg: 'imtcp(514): origin=imtcp submitted=0 '
+inputname: impstats rawmsg: 'imtcp(514): origin=imtcp submitted=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'resource-usage: origin=impstats utime=16810 stime=16810 maxrss=11044 minflt=1407 majflt=132 inblock=15424 oublock=40 nvcsw=482 nivcsw=40 openfiles=20 '
+escaped msg: 'resource-usage: origin=impstats utime=16810 stime=16810 maxrss=11044 minflt=1407 majflt=132 inblock=15424 oublock=40 nvcsw=482 nivcsw=40 openfiles=20 '
+inputname: impstats rawmsg: 'resource-usage: origin=impstats utime=16810 stime=16810 maxrss=11044 minflt=1407 majflt=132 inblock=15424 oublock=40 nvcsw=482 nivcsw=40 openfiles=20 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'main Q: origin=core.queue size=16 enqueued=21 full=0 discarded.full=0 discarded.nf=0 maxqsize=16 '
+escaped msg: 'main Q: origin=core.queue size=16 enqueued=21 full=0 discarded.full=0 discarded.nf=0 maxqsize=16 '
+inputname: impstats rawmsg: 'main Q: origin=core.queue size=16 enqueued=21 full=0 discarded.full=0 discarded.nf=0 maxqsize=16 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+escaped msg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+inputname: impstats rawmsg: 'io-work-q: origin=imptcp enqueued=0 maxqsize=0 '
+$!:
+$.:
+$/:
+
+Debug line with all properties:
+FROMHOST: '4bc5c009ee05', fromhost-ip: '127.0.0.1', HOSTNAME: '4bc5c009ee05', PRI: 46,
+syslogtag 'rsyslogd-pstats:', programname: 'rsyslogd-pstats', APP-NAME: 'rsyslogd-pstats', PROCID: '-', MSGID: '-',
+TIMESTAMP: 'Apr 18 03:25:04', STRUCTURED-DATA: '-',
+msg: 'imudp(w0): origin=imudp called.recvmmsg=4 called.recvmsg=0 msgs.received=2 '
+escaped msg: 'imudp(w0): origin=imudp called.recvmmsg=4 called.recvmsg=0 msgs.received=2 '
+inputname: impstats rawmsg: 'imudp(w0): origin=imudp called.recvmmsg=4 called.recvmsg=0 msgs.received=2 '
+$!:
+$.:
+$/:
+

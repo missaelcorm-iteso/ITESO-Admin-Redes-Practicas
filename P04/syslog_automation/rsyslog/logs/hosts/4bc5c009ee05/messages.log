@@ -1012,3 +1012,64 @@
 2024-04-15T04:43:28.101373+00:00 4bc5c009ee05 rsyslogd-pstats: main Q: origin=core.queue size=16 enqueued=840 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 
 2024-04-15T04:43:28.101375+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 
 2024-04-15T04:43:28.101377+00:00 4bc5c009ee05 rsyslogd-pstats: io-work-q: origin=imptcp enqueued=0 maxqsize=0 
+2024-04-15T04:48:28.177307+00:00 4bc5c009ee05 rsyslogd-pstats: global: origin=dynstats 
+2024-04-15T04:48:28.177323+00:00 4bc5c009ee05 rsyslogd-pstats: omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 
+2024-04-15T04:48:28.177327+00:00 4bc5c009ee05 rsyslogd-pstats: action 0: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:48:28.177330+00:00 4bc5c009ee05 rsyslogd-pstats: dynafile cache log_to_files_dynafile: origin=omfile requests=843 level0=828 missed=7 evicted=0 maxused=5 closetimeouts=6 
+2024-04-15T04:48:28.177333+00:00 4bc5c009ee05 rsyslogd-pstats: log_to_logfiles: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:48:28.177336+00:00 4bc5c009ee05 rsyslogd-pstats: action 2: origin=core.action processed=820 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:48:28.177338+00:00 4bc5c009ee05 rsyslogd-pstats: main_utf8fix: origin=core.action processed=843 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:48:28.177341+00:00 4bc5c009ee05 rsyslogd-pstats: imrelp(1601): origin=imrelp submitted=0 
+2024-04-15T04:48:28.177344+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-15T04:48:28.177347+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-15T04:48:28.177349+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:48:28.177350+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:48:28.177351+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=23 disallowed=0 
+2024-04-15T04:48:28.177353+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:48:28.177354+00:00 4bc5c009ee05 rsyslogd-pstats: imtcp(514): origin=imtcp submitted=0 
+2024-04-15T04:48:28.177357+00:00 4bc5c009ee05 rsyslogd-pstats: resource-usage: origin=impstats utime=34204 stime=12820 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2160 nvcsw=346 nivcsw=213 openfiles=19 
+2024-04-15T04:48:28.177360+00:00 4bc5c009ee05 rsyslogd-pstats: main Q: origin=core.queue size=16 enqueued=859 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 
+2024-04-15T04:48:28.177362+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 
+2024-04-15T04:48:28.177364+00:00 4bc5c009ee05 rsyslogd-pstats: io-work-q: origin=imptcp enqueued=0 maxqsize=0 
+2024-04-15T04:49:28.477625+00:00 4bc5c009ee05 rsyslogd-pstats: global: origin=dynstats 
+2024-04-15T04:49:28.477644+00:00 4bc5c009ee05 rsyslogd-pstats: omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 
+2024-04-15T04:49:28.477649+00:00 4bc5c009ee05 rsyslogd-pstats: action 0: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:49:28.477653+00:00 4bc5c009ee05 rsyslogd-pstats: dynafile cache log_to_files_dynafile: origin=omfile requests=862 level0=847 missed=7 evicted=0 maxused=5 closetimeouts=6 
+2024-04-15T04:49:28.477655+00:00 4bc5c009ee05 rsyslogd-pstats: log_to_logfiles: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:49:28.477658+00:00 4bc5c009ee05 rsyslogd-pstats: action 2: origin=core.action processed=839 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:49:28.477661+00:00 4bc5c009ee05 rsyslogd-pstats: main_utf8fix: origin=core.action processed=862 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-15T04:49:28.477663+00:00 4bc5c009ee05 rsyslogd-pstats: imrelp(1601): origin=imrelp submitted=0 
+2024-04-15T04:49:28.477666+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-15T04:49:28.477669+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-15T04:49:28.477671+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:49:28.477672+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:49:28.477674+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=23 disallowed=0 
+2024-04-15T04:49:28.477675+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-15T04:49:28.477677+00:00 4bc5c009ee05 rsyslogd-pstats: imtcp(514): origin=imtcp submitted=0 
+2024-04-15T04:49:28.477680+00:00 4bc5c009ee05 rsyslogd-pstats: resource-usage: origin=impstats utime=34510 stime=12935 maxrss=11096 minflt=1485 majflt=0 inblock=0 oublock=2200 nvcsw=349 nivcsw=213 openfiles=19 
+2024-04-15T04:49:28.477683+00:00 4bc5c009ee05 rsyslogd-pstats: main Q: origin=core.queue size=16 enqueued=878 full=0 discarded.full=0 discarded.nf=0 maxqsize=19 
+2024-04-15T04:49:28.477685+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(w0): origin=imudp called.recvmmsg=32 called.recvmsg=0 msgs.received=23 
+2024-04-15T04:49:28.477687+00:00 4bc5c009ee05 rsyslogd-pstats: io-work-q: origin=imptcp enqueued=0 maxqsize=0 
+2024-04-15T04:49:28.478447+00:00 4bc5c009ee05 rsyslogd: [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] exiting on signal 15.
+2024-04-18T03:20:04.058817+00:00 4bc5c009ee05 rsyslogd-2221: module 'imudp' already in this config, cannot be added  [v8.36.0 try http://www.rsyslog.com/e/2221 ]
+2024-04-18T03:20:04.059900+00:00 4bc5c009ee05 rsyslogd-2077: Could not create tcp listener, ignoring port 514 bind-address (null). [v8.36.0 try http://www.rsyslog.com/e/2077 ]
+2024-04-18T03:20:04.060098+00:00 4bc5c009ee05 rsyslogd: [origin software="rsyslogd" swVersion="8.36.0" x-pid="1" x-info="http://www.rsyslog.com"] start
+2024-04-18T03:25:04.099385+00:00 4bc5c009ee05 rsyslogd-pstats: global: origin=dynstats 
+2024-04-18T03:25:04.099397+00:00 4bc5c009ee05 rsyslogd-pstats: omelasticsearch: origin=omelasticsearch submitted=0 failed.http=0 failed.httprequests=0 failed.checkConn=0 failed.es=0 response.success=0 response.bad=0 response.duplicate=0 response.badargument=0 response.bulkrejection=0 response.other=0 
+2024-04-18T03:25:04.099400+00:00 4bc5c009ee05 rsyslogd-pstats: action 0: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-18T03:25:04.099402+00:00 4bc5c009ee05 rsyslogd-pstats: dynafile cache log_to_files_dynafile: origin=omfile requests=5 level0=3 missed=2 evicted=0 maxused=2 closetimeouts=0 
+2024-04-18T03:25:04.099404+00:00 4bc5c009ee05 rsyslogd-pstats: log_to_logfiles: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-18T03:25:04.099406+00:00 4bc5c009ee05 rsyslogd-pstats: action 2: origin=core.action processed=3 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-18T03:25:04.099408+00:00 4bc5c009ee05 rsyslogd-pstats: main_utf8fix: origin=core.action processed=5 failed=0 suspended=0 suspended.duration=0 resumed=0 
+2024-04-18T03:25:04.099410+00:00 4bc5c009ee05 rsyslogd-pstats: imrelp(1601): origin=imrelp submitted=0 
+2024-04-18T03:25:04.099418+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv4): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-18T03:25:04.099421+00:00 4bc5c009ee05 rsyslogd-pstats: imptcp(*/514/IPv6): origin=imptcp submitted=0 sessions.opened=0 sessions.openfailed=0 sessions.closed=0 bytes.received=0 bytes.decompressed=0 
+2024-04-18T03:25:04.099422+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-18T03:25:04.099423+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-18T03:25:04.099424+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=2 disallowed=0 
+2024-04-18T03:25:04.099425+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(*:514): origin=imudp submitted=0 disallowed=0 
+2024-04-18T03:25:04.099428+00:00 4bc5c009ee05 rsyslogd-pstats: imtcp(514): origin=imtcp submitted=0 
+2024-04-18T03:25:04.099431+00:00 4bc5c009ee05 rsyslogd-pstats: resource-usage: origin=impstats utime=16810 stime=16810 maxrss=11044 minflt=1407 majflt=132 inblock=15424 oublock=40 nvcsw=482 nivcsw=40 openfiles=20 
+2024-04-18T03:25:04.099433+00:00 4bc5c009ee05 rsyslogd-pstats: main Q: origin=core.queue size=16 enqueued=21 full=0 discarded.full=0 discarded.nf=0 maxqsize=16 
+2024-04-18T03:25:04.099434+00:00 4bc5c009ee05 rsyslogd-pstats: io-work-q: origin=imptcp enqueued=0 maxqsize=0 
+2024-04-18T03:25:04.099436+00:00 4bc5c009ee05 rsyslogd-pstats: imudp(w0): origin=imudp called.recvmmsg=4 called.recvmsg=0 msgs.received=2 
