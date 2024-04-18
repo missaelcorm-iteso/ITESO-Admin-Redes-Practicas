@@ -210,6 +210,11 @@ Start the capture over the nic attached to the routers.
 tshark -i ens19 -w ./syslog.pcapng
 ```
 
+Simulate syslog messages, in this case we're gonna set a cpu threshold to generate a log with severity one.
+```
+process cpu threshold type total rising 1 interval 5
+```
+
 Simulate syslog messages, in this case we're gonna turn on/off an unused interface.
 ```
 int e1/3
