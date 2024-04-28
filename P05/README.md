@@ -267,3 +267,100 @@ This is the layout at `proxmox` hypervisor.
 
 > Note: `nic` are physical `NICs` and `vnic` are `Virtual NICs`
 
+### Web UI
+This is the list of devices scraped by `python-snmp` server:
+![alt text](attachments/image-9.png)
+
+`SNMP` Metrics from `1.1.1.1` device:
+![alt text](attachments/image-8.png)
+
+### Installation
+Go to `automation/`:
+```shell
+cd automation
+```
+
+Install `requirements.txt`:
+```shell
+pip3 install -r automation/requirements.txt
+```
+
+Define your device inventory, and OIDs to scrape at `config.yaml`:
+```yaml
+devices:
+  - name: R1 GDL
+    ip: "1.1.1.1"
+    snmp_config: cisco
+  - name: R2 Monterrey
+    ip: "2.2.2.2"
+    snmp_config: cisco
+  - name: R3 CDMX
+    ip: "3.3.3.3"
+    snmp_config: cisco
+
+snmp_configs:
+  cisco:
+    snmp:
+      community: "equipo3"
+    oids:
+      - name: "hostname"
+        oid: "1.3.6.1.2.1.1.5.0"
+        type: "string"
+      - name: "system_description"
+        oid: "1.3.6.1.2.1.1.1.0"
+        type: "string"
+      - name: "uptime"
+        oid: "1.3.6.1.2.1.1.3.0"
+        type: "seconds"
+      # - name: "memory"
+      #   oid: "1.3.6.1.4.1.9.9.48.1.1.1.5.1"
+      - name: "interfaces_number"
+        oid: "1.3.6.1.2.1.2.1.0"
+        type: "integer"
+        sub_oids:
+          - name: "interface_description"
+            oid: "1.3.6.1.2.1.2.2.1.2"
+            type: "string"
+          - name: "interface_mac"
+            oid: "1.3.6.1.2.1.2.2.1.6"
+            type: "string"
+          - name: "interface_last_change"
+            oid: "1.3.6.1.2.1.2.2.1.9"
+            type: "seconds"
+          - name: "interface_status"
+            oid: "1.3.6.1.2.1.2.2.1.8"
+            type: "integer"
+```
+
+Run the `app`:
+```shell
+python3 app.py
+```
+
+### Conclusion
+In our practice, we successfully leveraged Python libraries and a web framework to scrape SNMP metrics from network devices and visualize them through a user-friendly interface. Here's a breakdown of what we accomplished:
+
+* **SNMP Data Acquisition:** We utilized the `pysnmp` library to interact with SNMP agents on network devices. By parsing a `config.yaml` file, we dynamically retrieved the target devices and OIDs to scrape. This showcases our ability to automate SNMP data collection based on configuration.
+* **Flask Web App Development:** We implemented a web application using Flask to provide a user interface for the SNMP metrics. This demonstrates our understanding of web development frameworks and creating user-friendly interfaces for data visualization.
+* **Data Integration:** We successfully integrated the SNMP data collected using `pysnmp` with our Flask application. This highlights our ability to combine different technologies to build a comprehensive solution.
+
+Overall, this practice effectively demonstrates our skills in network data scraping, Python library usage, and Flask web development.
+
+## Conclusion
+In this comprehensive network management practice, we successfully employed various tools and techniques to gain valuable insights into network performance and health. Here's a summary of our accomplishments:
+
+* **Automated SNMP Data Collection:** We leveraged Python's `pysnmp` library to automate the scraping of SNMP metrics from network devices. This demonstrates our ability to streamline data collection and reduce manual effort.
+* **Cacti Server Deployment:** We deployed a Cacti server within a Docker container, showcasing our understanding of containerization technologies and their application in network monitoring.
+* **SNMP Configuration and Monitoring:** We successfully enabled SNMP v2 on Cisco routers and integrated them with Cacti for automated data collection. This highlights our proficiency in configuring SNMP protocols and using monitoring tools to gain visibility into network behavior.
+* **Data Visualization and Analysis:** We created informative graphs within Cacti to visualize interface-related metrics. Additionally, we analyzed a PCAPng capture containing SNMP data, demonstrating our ability to interpret captured network traffic and extract relevant information.
+
+Overall, this practice effectively demonstrates a well-rounded skillset in network management, encompassing data acquisition automation, server deployment, SNMP configuration, data visualization, and network traffic analysis.
+
+This combined approach empowers us to proactively monitor network performance, identify potential issues, and ensure optimal network operation.
+
+## References
+- https://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/7282-12.html
+- https://community.cisco.com/t5/switching/how-to-configure-snmp-v2c-on-switch/td-p/4156771
+- https://www.manageengine.com/products/oputils/enable-snmp-cisco-router.html
+- https://github.com/scline/docker-cacti
+- https://hub.docker.com/r/smcline06/cacti/dockerfile
