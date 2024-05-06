@@ -1,0 +1,52 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cisco Device SNMP - {{ device.name }}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Cisco Device SNMP - {{ device.name }}</h1>
+    <div class="container">
+        {% for oid in json_data %}
+        <div>
+            <h2>{{ oid.oid_name }}</h2>
+            <table class="table table-striped">
+                <tr>
+                    <th>OID</th>
+                    <th>Value</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>{{ oid.oid }}</td>
+                    <td>{{ oid.value }}</td>
+                    <td>{{ oid.type }}</td>
+                </tr>
+            </table>
+            {% if oid.sub_oids %}
+            <h3>{{ oid.oid_name }}: child OIDs</h3>
+            <table class="table table-striped">
+                
+                <tr>
+                    {% for sub_oid in oid.sub_oids[0] %}
+                    <th>{{ sub_oid.oid_name }}</td> 
+                    {% endfor %}
+                </tr>
+                {% for sub_oid in oid.sub_oids %}
+                <tr>
+                    {% for field in sub_oid %}
+                    <td>{{ field.value }}{% if field.type == 'seconds' %}s{% endif %}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+        </div>
+        {% endfor %}
+        <a class="btn btn-primary" href="{{ url_for('devices') }}">View All Devices</a>
+    </div>
+</body>
+</html>
